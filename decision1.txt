@@ -1,0 +1,10 @@
+//if statements,switch statements,conditional operators
+import java.util.Scanner
+
+class decisionbranching
+{
+	 public static void main(String args[])
+	{
+	
+	}
+}

@@ -1,0 +1,32 @@
+//if statements,switch statements,conditional operators
+//1st If statement:If statement,If Else,Else If,nested if else
+//Else IF
+import java.util.Scanner;
+class decision4
+{
+	 public static void main(String args[])
+	{
+	Scanner obj=new Scanner(System.in);
+
+    int marks;
+	System.out.print("Enter Marks:");
+	Marks=obj.nextInt();
+	if(marks>85&&marks<=100)
+    	{
+	System.out.print("Your Grade is:A");
+	}
+	else if(marks>=75&&marks<85)
+	{
+	System.out.print("Your Grade is:B");
+	}
+	else if(marks>=65&&marks<75)
+	{
+	System.out.print("Your Grade is:C");
+	}
+	else if(marks>=65&&marks<75)
+	{
+	System.out.print("Your Grade is:D");
+	}
+	
+}
+}

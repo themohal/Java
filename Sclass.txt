@@ -1,0 +1,19 @@
+//Strings
+class Sclass
+{
+	public static void main(String []args)
+	{
+	String str1="Easytuts4you";
+	String str2=new String("Java");
+	char name[]={'F','A','R','J','A','D');
+	String str3=new String(name);
+	String str4=new String(name,2,3);//(arrayname,startindex,range)
+	String str5=new String(str4);
+	System.out.println("\n\t1st String: " +str1);
+	System.out.println("\n\t2st String: " +str2);
+	System.out.println("\n\t3st String: " +str3);
+	System.out.println("\n\t4st String: " +str4);
+	System.out.println("\n\t5st String: " +str5);
+	System.out.println("\n\tLength of 1st String: " +str1.lenght);
+	}
+}
